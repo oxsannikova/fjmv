@@ -6,20 +6,20 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="fjmvlib", # Replace with your own username
-    packages = setuptools.find_packages(),
-    version="0.4",
+    packages=['fjmvlib'],
+    version="0.5",
     author="Oxana Sannikova",
     author_email="osanniko@cisco.com",
     description="A small package with helper functions to validate Fire Jumper Programmability Mission submissions.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/oxsannikova/fjmvlib",
-    download_url="https://github.com/oxsannikova/fjmvlib/archive/v_02.tar.gz",
+    download_url="https://github.com/oxsannikova/fjmvlib/archive/v04.tar.gz",
     #install_requires=[            
     #      'requests',
     #      'json',
     #  ],
-    packages=setuptools.find_packages(),
+    #packages=setuptools.find_packages(),
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Intended Audience :: Developers',
