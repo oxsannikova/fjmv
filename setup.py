@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="fjmvlib", # Replace with your own username
-    version="0.2",
+    version="0.3",
     author="Oxana Sannikova",
     author_email="osanniko@cisco.com",
     description="A small package with helper functions to validate Fire Jumper Programmability Mission submissions.",
