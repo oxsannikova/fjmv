@@ -39,16 +39,16 @@ def get_user_details(webex_token):
 
 
 def post_submission(url, threatgrid_sha, threatgrid_sample_id,
-                    threatgrid_sample_domains, umbrella_blacklist,
-                    umbrella_blacklist_enforcement, ctr_observables,
+                    threatgrid_sample_domains, umbrella_block_list,
+                    umbrella_blocklist_enforcement, ctr_observables,
                     ctr_response_url, webex_id):
 
     data = {
         "threatgrid_sha": threatgrid_sha,
         "threatgrid_sample_id": threatgrid_sample_id,
         "threatgrid_sample_domains": threatgrid_sample_domains,
-        "umbrella_blacklist": umbrella_blacklist,
-        "umbrella_blacklist_enforcement": umbrella_blacklist_enforcement,
+        "umbrella_block_list": umbrella_block_list,
+        "umbrella_blocklist_enforcement": umbrella_blocklist_enforcement,
         "ctr_observables": ctr_observables,
         "ctr_response_url": ctr_response_url,
         "webex_id": webex_id
