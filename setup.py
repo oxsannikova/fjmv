@@ -14,7 +14,7 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/oxsannikova/fjmvlib",
-    download_url="https://github.com/oxsannikova/fjmvlib/archive/v_05.tar.gz",
+    download_url="https://github.com/oxsannikova/fjmvlib/archive/v_06.tar.gz",
     #install_requires=[            
     #      'requests',
     #      'json',
